@@ -7,7 +7,7 @@ wget -O harry.txt "https://raw.githubusercontent.com/bobdeng/owlreader/master/ER
 head -n 3 harry.txt
 
 #for printing last n lines we use 'tail' command
-tail -n 3 harry.txt
+tail -n 3 harry.txt 
 
 #to get all occurance of the string we use grep and wc is for count words 
 grep -oi 'Harry' harry.txt | wc -l
